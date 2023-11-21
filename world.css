@@ -1,1 +1,83 @@
-/* Add your own styles */
+body{
+    margin: 0;
+    align-items: center;
+}
+
+header{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(249, 100, 195);
+    margin: 0;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+    max-width: 500px;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+input {
+    border: solid 1px; border-color:lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 250px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.btn button {
+    margin-right: 10px; 
+}
+
+button{
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 1px; border-color:lightgrey;
+    color: white;
+}
+
+#lookup {
+    background-color:rgb(255, 192, 232) ;
+}
+
+#lookupcity {
+    background-color:rgb(255, 192, 232) ;
+}
+
+#result {
+    padding-top: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 20px auto; 
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

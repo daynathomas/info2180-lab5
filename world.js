@@ -10,7 +10,7 @@ $(document).ready(function () {
                 searchResult.html(result);
             })
             .fail(function (result) {
-                alert("A problem with the request occurred.");
+                alert("An error has occured.");
             });
     });
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
                 searchResult.html(result);
             })
             .fail(function (result) {
-                alert("A problem with the request occurred.");
+                alert("An error has occured.");
             });
     });
 });
